@@ -1,0 +1,29 @@
+{
+  "name": "crm",
+  "version": "1.0.0",
+  "description": "crm backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/exitroute/crm-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/exitroute/crm-backend/issues"
+  },
+  "homepage": "https://github.com/exitroute/crm-backend#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^4.1.3",
+    "mongoose": "^6.0.9"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
