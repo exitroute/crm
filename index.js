@@ -16,6 +16,8 @@ app.use(express.urlencoded({ extended: true }));
 
 routes(app);
 
+app.use(express.static("public"));
+
 app.get("/", (req, res) => {
   res.send(`Server running on port ${PORT}`);
 });
